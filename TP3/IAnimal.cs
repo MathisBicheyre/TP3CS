@@ -1,8 +1,10 @@
-﻿namespace TP3
+﻿using System.Collections;
+
+namespace TP3
  {
      public interface IAnimal
      {
-         public string Name { get; set; }
+         string Name { get; set; }
 
          void move();
          void eat();
